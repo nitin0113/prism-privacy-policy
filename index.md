@@ -1,15 +1,15 @@
-# Prism privacy policy
+# Sidelight News privacy policy
 
-Effective 2026-09-16 · applies to Prism for Android, version 0.1.0 and later
+Effective 2026-09-20 · applies to Sidelight News for Android, version 0.1.0 and later
 Published by Nitin · contact: nitin.ydv011@gmail.com
 
-Prism has no accounts, no ads, no analytics and no servers of its own. We, the
+Sidelight has no accounts, no ads, no analytics and no servers of its own. We, the
 developer, do not receive any information about you or how you use the app. This page
 explains what stays on your device and which outside servers the app contacts.
 
 ## What stays on your device
 
-Prism stores the following in its private app storage. It is never sent to us or
+Sidelight stores the following in its private app storage. It is never sent to us or
 anyone else.
 
 - **Reading history:** which articles you opened, from which outlet, that outlet's
@@ -18,7 +18,7 @@ anyone else.
 - **Interests:** topics and outlets you follow or mute, and interest levels learned from
   what you read, used to rank your feed.
 - **Downloaded news:** headlines, short summaries, links and image addresses from
-  publishers' public feeds, plus the stories Prism groups them into. Articles older
+  publishers' public feeds, plus the stories Sidelight groups them into. Articles older
   than about seven days are deleted automatically.
 - **Settings:** whether topic alerts are on, and which stories have already been
   considered for an alert; whether screenshots are blocked everywhere and whether
@@ -27,19 +27,19 @@ anyone else.
   the numeric representations it computes for each article.
 - **Image cache:** copies of article images, kept in the app's cache.
 
-Prism's database, settings and model are excluded from Android cloud backup and from
+Sidelight's database, settings and model are excluded from Android cloud backup and from
 device-to-device transfer, so this data does not leave your device that way either.
 
 You can clear your reading history and learned interests in Settings or on the
-Balance screen. You can remove the grouping model in Settings. Uninstalling Prism, or
+Balance screen. You can remove the grouping model in Settings. Uninstalling Sidelight, or
 clearing its storage in Android settings, deletes everything above.
 
-## Servers Prism contacts
+## Servers Sidelight contacts
 
 Every connection uses HTTPS. None of these requests contain your reading history,
-interests or any identifier created by Prism.
+interests or any identifier created by Sidelight.
 
-- **News publishers and fact-checkers.** Prism downloads the public RSS or Atom feeds
+- **News publishers and fact-checkers.** Sidelight downloads the public RSS or Atom feeds
   of the outlets listed in the app, in the app and periodically in the background.
   Like any web request, this reveals your IP address and a generic app identifier
   ("PrismReader") to each publisher's servers.
@@ -49,9 +49,9 @@ interests or any identifier created by Prism.
 - **Opening an article.** When you tap an article, it opens on the publisher's website
   in your browser (as a Chrome Custom Tab or your default browser). From then on you
   are on the publisher's site, and its own privacy policy, cookies and advertising
-  apply. Prism does not see what you do there.
+  apply. Sidelight does not see what you do there.
 - **Google, only if you choose the optional model.** If you tap "Agree and download"
-  for the grouping model, Prism downloads it from Google's storage servers
+  for the grouping model, Sidelight downloads it from Google's storage servers
   (storage.googleapis.com), over Wi-Fi only. Google sees your IP address as part of
   that download. Google's own privacy policy applies to that request. After the
   download, articles are analysed on your device; no article text is uploaded.
@@ -59,26 +59,29 @@ interests or any identifier created by Prism.
   pages in your browser, which contact those sites.
 
 The library that runs the grouping model (Google's MediaPipe) normally sends usage
-statistics to Google: the app's name and version, which task ran, and timing. Prism
+statistics to Google: the app's name and version, which task ran, and timing. Sidelight
 disables this. Its upload component is removed from the app, so the statistics are
 discarded on the device before they are stored or sent.
 
 ## Notifications and the home-screen widget
 
-These reach outside Prism's own app storage, so they deserve a specific note even
+These reach outside Sidelight's own app storage, so they deserve a specific note even
 though nothing here leaves your device to us or to anyone over the network.
 
 - **Notification content is readable by apps you've granted notification access.**
   Android lets you grant an app permission to read your notifications (for a smartwatch
   companion, for example). If you have granted that to any app, it can read a topic
-  alert's headline and topic name — this is an Android capability Prism cannot block,
+  alert's headline and topic name — this is an Android capability Sidelight cannot block,
   not a network transmission. In Settings, "Keep alert text vague" makes alerts say
   only that new stories arrived, with no headline or topic name, while tapping one
   still opens the story.
 - **The home-screen widget is rendered by your launcher app**, which is how Android
-  widgets work: your launcher, not Prism, draws the top stories and their coverage
-  split onto your home screen. Anyone who can see your home screen can see it, the same
-  as any other widget's content.
+  widgets work: your launcher, not Sidelight, draws the top stories, their coverage
+  split and small pictures for them onto your home screen. Anyone who can see your home
+  screen can see it, the same as any other widget's content. The widget's refresh icon
+  runs the same feed download as the app, and its search icon opens the app's search;
+  neither sends anything to us. The pictures come from the same image hosts described
+  above, or from the app's image cache.
 - **Screenshots and screen recording.** Balance and Interests — the screens that
   describe your reading politics — always block screenshots, screen recording and
   their Recents-list thumbnail. "Block screenshots everywhere" in Settings extends
@@ -91,12 +94,12 @@ though nothing here leaves your device to us or to anyone over the network.
 - **Notifications (Android 13 and later):** requested only if you turn on alerts for
   followed topics. Alerts are worked out on your device; there is no push service.
 
-Prism does not request location, contacts, camera, microphone, storage or account
+Sidelight does not request location, contacts, camera, microphone, storage or account
 access.
 
 ## Children
 
-Prism is a general news app and is not directed at children under 13.
+Sidelight is a general news app and is not directed at children under 13.
 
 ## Changes
 
