@@ -1,6 +1,6 @@
 # Sidelight News privacy policy
 
-Effective 2026-09-20 · applies to Sidelight News for Android, version 0.1.0 and later
+Effective 2026-10-02 · applies to Sidelight News for Android, version 0.1.0 and later
 Published by Nitin · contact: nitin.ydv011@gmail.com
 
 Sidelight has no accounts, no ads, no analytics and no servers of its own. We, the
@@ -20,6 +20,9 @@ anyone else.
 - **Downloaded news:** headlines, short summaries, links and image addresses from
   publishers' public feeds, plus the stories Sidelight groups them into. Articles older
   than about seven days are deleted automatically.
+- **Saved articles:** if you tap the bookmark on an article, its headline, short summary,
+  link, image address and outlet are kept in Sidelight until you remove them, even after
+  the feed has deleted the article. You can remove one, or all, on the Saved screen.
 - **Settings:** whether topic alerts are on, and which stories have already been
   considered for an alert; whether screenshots are blocked everywhere and whether
   alert text is kept vague (see "Notifications and the home-screen widget" below).
@@ -31,7 +34,7 @@ Sidelight's database, settings and model are excluded from Android cloud backup 
 device-to-device transfer, so this data does not leave your device that way either.
 
 You can clear your reading history and learned interests in Settings or on the
-Balance screen. You can remove the grouping model in Settings. Uninstalling Sidelight, or
+Balance screen. Clearing reading history does not remove saved articles. You can remove the grouping model in Settings. Uninstalling Sidelight, or
 clearing its storage in Android settings, deletes everything above.
 
 ## Servers Sidelight contacts
